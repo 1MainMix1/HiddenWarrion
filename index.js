@@ -41,7 +41,7 @@ buttonKahoot.addEventListener('click',async (e) => {
         
         let answerContent = document.createElement('div')
         let kahootTitle = document.createElement('h2')
-        kahootTitle.innerText = `Вопрос ${questionIndex + 1}: ${question['question']}`
+        kahootTitle.innerText = `Питання ${questionIndex + 1}: ${question['question']}`
         answerContent.classList.add('answer-content')
         answerContent.appendChild(kahootTitle)
         Content.appendChild(answerContent)
