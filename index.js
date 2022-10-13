@@ -24,8 +24,7 @@ const figure_list = {
 
     'cyan': '<span class="sc-dlfnbm idokwv card-icon__icon" data-functional-selector="icon" style="display: inline-block; vertical-align: middle; min-width: 40px; height: 40px;"><svg viewBox="0 0 32 32" focusable="false" stroke="rgba(0, 0, 0, 0.15)" stroke-width="1.3px" aria-labelledby="label-48da6b10-dfba-45d6-a227-20781c3a768b" aria-hidden="true" class="sc-hKgILt bluJxS" style="paint-order: stroke;"><title id="label-48da6b10-dfba-45d6-a227-20781c3a768b">Icon</title><path d="M8.584 27 4 12.786 16 3.982 28 12.786 23.417 27z" style="fill: inherit;"></path></svg></span>',
 
-    'purple': '<span class="sc-dlfnbm idokwv card-icon__icon" data-functional-selector="icon" style="display: inline-block; vertical-align: middle; min-width: 40px; height: 40px;"><svg viewBox="0 0 32 32" focusable="false" stroke="rgba(0, 0, 0, 0.15)" stroke-width="1.3px" aria-labelledby="label-48da6b10-dfba-45d6-a227-20781c3a768b" aria-hidden="true" class="sc-hKgILt bluJxS" style="paint-order: stroke;"><title id="label-48da6b10-dfba-45d6-a227-20781c3a768b">Icon</title><path d="M8.584 27 4 12.786 16 3.982 28 12.786 23.417 27z" style="fill: inherit;"></path></svg></span>'
-
+    'purple': '<span class="sc-dlfnbm idokwv card-icon__icon" data-functional-selector="icon" style="display: inline-block; vertical-align: middle; width: 40px; height: 40px;"><svg viewBox="0 0 32 32" focusable="false" stroke="rgba(0, 0, 0, 0.15)" stroke-width="1.3px" aria-labelledby="label-6810870c-9201-4616-86be-e908af65bb76" aria-hidden="true" class="sc-hKgILt bluJxS" style="paint-order: stroke;"><title id="label-6810870c-9201-4616-86be-e908af65bb76">Icon</title><path d="M5 8L16 26.857 27 8z" style="fill: inherit;"></path></svg></span>'
 }
 async function getData(url) {
     return await fetch(url)
