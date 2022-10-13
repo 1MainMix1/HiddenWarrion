@@ -100,7 +100,9 @@ body {
   padding-top: 25px;
   flex-direction: column;
   flex-wrap: wrap;
+  align-self: self-start;
   align-content: center;
+  
   justify-content: center;
   align-items: center;
 }
