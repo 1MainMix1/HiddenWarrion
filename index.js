@@ -52,10 +52,10 @@ buttonKahoot.addEventListener('click',async (e) => {
 
         question['choices'].forEach((choise,choiseIndex) => {
             if (choise['correct']) {
-
                 let kahootBox = document.createElement('div')
-                kahootBox.innerHTML = `${figure_list[color_list[choiseIndex]]}<h3>${choise.answer}</h3>`
+                kahootBox.innerHTML = choise.answer == undefined ? `${figure_list[color_list[choiseIndex]]}<img src=\"https://images-cdn.kahoot.it/${choise.image.id}\"></img>`: `${figure_list[color_list[choiseIndex]]}<h3>${choise.answer}</h3>`;
                 kahootBox.querySelector('span').setAttribute('id',`set${choiseIndex + 1}`)
+                console.log(choise);
                 console.log(`${choiseIndex + 1} - ${choise.answer}`);
                 kahootBox.classList.add('answer-box')
                 kahootBox.classList.add(`set${choiseIndex + 1}`)

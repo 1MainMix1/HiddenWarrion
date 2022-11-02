@@ -157,8 +157,13 @@ body {
             border-radius: 4px;
             min-height: 3.5rem;
             margin: 10px;
-            max-width: 300px;
+
             background-color: rgb(226, 27, 60);
+            img {
+                position: relative;
+                border-radius: 5px;
+                width: calc(100% - 50px);
+            }
             span {
                 display: flex!important;
                 align-items: center;
@@ -221,6 +226,12 @@ body {
     .container {
         .answer {
             grid-template-columns: 1fr;
+            &-box {
+                flex-direction: column;
+                img {
+                    width: 100%;
+                }
+            }
         }
     }
 }

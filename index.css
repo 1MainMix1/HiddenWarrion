@@ -154,8 +154,12 @@ body {
   border-radius: 4px;
   min-height: 3.5rem;
   margin: 10px;
-  max-width: 300px;
   background-color: rgb(226, 27, 60);
+}
+.container .answer-box img {
+  position: relative;
+  border-radius: 5px;
+  width: calc(100% - 50px);
 }
 .container .answer-box span {
   display: flex !important;
@@ -201,5 +205,11 @@ body {
 @media (max-width: 768px) {
   .container .answer {
     grid-template-columns: 1fr;
+  }
+  .container .answer-box {
+    flex-direction: column;
+  }
+  .container .answer-box img {
+    width: 100%;
   }
 }/*# sourceMappingURL=index.css.map */
